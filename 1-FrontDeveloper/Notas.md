@@ -20,3 +20,16 @@ Es un lenguaje que nos permite crear páginas web con un diseño agradable para 
 * El DOM se une con el CSSOM para crear el Render Tree.
 * Se aplican los estilos CSS en el Render Tree.
 * Se "pintan" los nodos en la pantalla para que los usuarios vean el contenido de la página Web.
+
+## Anatomía de un elemnto HTML
+
+Nuestros elementos HTML se componen de:
+
+Etiqueta de apertura: el nombre de nuestra etiqueta encerrado entre símbolos de mayor o menor. Por ejemplo: < h1 >.
+
+Contenido: dentro de nuestras etiquetas podemos añadir texto u otros elementos HTML, lo que conocemos como anidamiento.
+Etiqueta de cierre: son casi iguales que las etiquetas de apertura, pero también necesitan un slash (/) antes del nombre de la etiqueta. Por ejemplo: </ h1>.
+
+Las etiquetas de apertura también pueden tener atributos. Los atributos nos permiten definir características especiales para nuestros elementos: < etiqueta atributo=""valor del atributo"">. Por ejemplo: < h1 class=""saludo"">.
+
+También existen elementos vacíos. Estos elementos no tienen contenido ni etiqueta de cierre, solo etiqueta de apertura y atributos. Por ejemplo: < img src=""puppy.png"" alt=""mi mascota"">.
