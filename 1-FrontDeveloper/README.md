@@ -10,18 +10,18 @@ Es un lenguaje que nos permite crear páginas web con un diseño agradable para 
 
 #### Conceptos
 
-* DOM (Document Object Model) - Es una transformacion del código HTML escrito por nosotros a objetos entendibles para el navegador.
-* CSSOM - Así como el DOM para el HTML, El CSSOM es una representación de objetos de nuetros estilos en CSS.
+* DOM (Document Object Model) - Es una transformación del código HTML escrito por nosotros a objetos entendibles para el navegador.
+* CSSOM - Así como el DOM para el HTML, El CSSOM es una representación de objetos de nuestros estilos en CSS.
 * Render Tree - Es la unión entre el DOM y el CSSOM para renderizar todo el código de nuestra página web.
 
-### Pasos que sigue el navegador para contruir las páginas web:
-* Procesa el HTML para contruir el DOM.
+### Pasos que sigue el navegador para construir las páginas web:
+* Procesa el HTML para construir el DOM.
 * Procesa el CSS para construir el CSSOM.
 * El DOM se une con el CSSOM para crear el Render Tree.
 * Se aplican los estilos CSS en el Render Tree.
 * Se "pintan" los nodos en la pantalla para que los usuarios vean el contenido de la página Web.
 
-## Anatomía de un elemnto HTML
+## Anatomía de un elemento HTML
 
 Nuestros elementos HTML se componen de:
 
@@ -47,17 +47,18 @@ Valores: son el estilo que queremos que tomen nuestros elementos HTML con respec
 
 ## Tipos de selectores, pseudo-clases y pseudo-elementos
 
-*(asterisco): Es el selector universal. Las propiedades se aplicaran a todos los elementos de nuestro HTML.
+*(asterisco): Es el selector universal. Las propiedades se aplicarán a todos los elementos de nuestro HTML.
 
-Tipo: Son selectores que se aplican a cierto elemento HTML en específico. Las propiedades se aplicaran a la etiqueta que queremos, por ejemplo p, body, html, div, etc.
+Tipo: Son selectores que se aplican a cierto elemento HTML en específico. Las propiedades se aplicarán a la etiqueta que queremos, por ejemplo p, body, html, div, etc.
 
 Clase: Si nuestras etiqueta de HTML tienen un atributo de class podemos usar ese valor o identificador para que los cambios en el CSS afecten únicamente a ese elemento.
 
-ID: Es similar al anterior, si la etiqueta HTML tiene un ID podemos afectar solo ese elemento.
+ID: Es similar al anterior, si la etiqueta HTML tiene un ID podemos afectar sólo ese elemento.
 
 Las Pseudo-clases y Pseudo-elementos nos permiten ser aún más específicos con qué elemento o partes de nuestros elementos deben recibir los estilos.
 
 Para usarlas debemos definir el selector base (por ejemplo, p) seguido de dos puntos y la pseudo-clase que queremos estilizar (por ejemplo: p:first-child). En el caso de los pseudo-elementos debemos usar el dos puntos 2 veces (p::first-letter).
+
 
 ~~~
 * Asterisco (universal) */
