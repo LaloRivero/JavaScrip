@@ -94,3 +94,10 @@ p:nth-child(2n) {
   color: red;
 } 
 ~~~
+
+# Enlaces importantes
+
+* https://htmlreference.io
+* https://colorhunt.co
+* https://css-tricks.com
+* https://iconos8.es
