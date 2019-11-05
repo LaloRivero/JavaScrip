@@ -102,4 +102,7 @@ p:nth-child(2n) {
 * https://css-tricks.com
 * https://iconos8.es
 * http://flexboxfroggy.com/#es
+<<<<<<< HEAD
 * http://lab.jensimmons.com
+=======
+>>>>>>> 1efeb570b16a9a308fafae86f44bd7f4b8a3f100
