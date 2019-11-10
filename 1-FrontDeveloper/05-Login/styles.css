@@ -1,0 +1,72 @@
+	* {
+		font-family: 'Muli', sans-serif;
+	}
+
+	body {
+		margin: 0;
+		background-color: gray;
+	}
+
+	header {
+		display: flex;
+		width: 100%;
+		height: 60px;
+		background-color: #21C08B;
+		align-items: center;
+	}
+
+	header img {
+		margin-left: 5px;
+		width: 150px;
+  }
+  
+  .login{
+    background: linear-gradient(#21c08b, #ab88ff);
+    display: flex;
+    align-items: center; /* vertical */
+    justify-content: center; /* horizontal */
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 120px);
+  }
+
+  .login__container{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 70px 40px;
+    min-height: 500px;
+    width: 300px;
+  }
+
+  .login__container--form{
+    display:felx;
+    flex-direction: column;
+  }
+
+  .login__container--form label{
+    font-size: 14px;
+  }
+
+  .login__container--remember-me{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .login__container--remember-me a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+  }
+  .login__container--remember-me a:hover{
+    text-decoration: underline;
+  }
+  .login__container--social-media > div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
