@@ -4,7 +4,6 @@
 
 	body {
 		margin: 0;
-		background-color: gray;
 	}
 
 	header {
@@ -31,17 +30,20 @@
   }
 
   .login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     background-color: rgba(255, 255, 255, 0.1);
     border: 2px solid white;
-    border-radius: 40px;
+    border-radius: 50px;
     color: white;
-    padding: 60px 70px 40px;
-    min-height: 500px;
+    padding: 60px 70px;
+    min-height: 550px;
     width: 300px;
   }
 
   .login__container--form{
-    display:felx;
+    display:flex;
     flex-direction: column;
   }
 
@@ -69,4 +71,66 @@
     align-items: center;
     font-size: 14px;
     margin-top: 10px;
+  }
+  .login__container--social-media > div > img{
+    width: 25px;
+    margin-right: 10px;
+  }
+  .login__container--register{
+    font-size: 14px;
+  }
+  .login__container--register a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+  }
+  .login__container--register a:hover{
+    text-decoration: underline;
+  }
+  .input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    outline: none;
+    height: 50px;
+  }
+  ::placeholder{
+    color: white;
+  }
+  .button{
+    background-color: rgba(255,255,255, 0.3);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: #ab88ff;
+  }
+
+  .footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px;
+    cursor: pointer;
+  }  
+  .footer a:hover{
+    text-decoration: underline;
   }
