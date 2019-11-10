@@ -1,11 +1,9 @@
 	* {
 		font-family: 'Muli', sans-serif;
 	}
-
 	body {
 		margin: 0;
 	}
-
 	header {
 		display: flex;
 		width: 100%;
@@ -13,13 +11,12 @@
 		background-color: #21C08B;
 		align-items: center;
 	}
-
 	header img {
 		margin-left: 5px;
 		width: 150px;
   }
   
-  .login{
+  .Register{
     background: linear-gradient(#21c08b, #ab88ff);
     display: flex;
     align-items: center; /* vertical */
@@ -29,7 +26,7 @@
     min-height: calc(100vh - 120px);
   }
 
-  .login__container{
+  .Register__container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -42,52 +39,15 @@
     width: 300px;
   }
 
-  .login__container--form{
+  .Register__container--form{
     display:flex;
     flex-direction: column;
   }
 
-  .login__container--form label{
+  .Register__container--form label{
     font-size: 14px;
   }
 
-  .login__container--remember-me{
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
-  }
-  
-  .login__container--remember-me a{
-    font-size: 14px;
-    color: white;
-    text-decoration: none;
-  }
-  .login__container--remember-me a:hover{
-    text-decoration: underline;
-  }
-  .login__container--social-media > div{
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    margin-top: 10px;
-  }
-  .login__container--social-media > div > img{
-    width: 25px;
-    margin-right: 10px;
-  }
-  .login__container--register{
-    font-size: 14px;
-  }
-  .login__container--register a{
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-    color: white;
-  }
-  .login__container--register a:hover{
-    text-decoration: underline;
-  }
   .input{
     background-color: transparent;
     border-left: 0px;
