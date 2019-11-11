@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <title>Buscador</title>
+</head>
+<style>
+    *{
+        font-family: 'Raleway', sans-serif;
+    }
+    body{
+        margin: 0px;
+        background-color : #3c4245;
+    }
+    h1{
+        color:#dfcdc3;
+    }
+    .header{
+        background-color: #719192;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header__img{
+        width: 40px;
+        margin-left: 10px;
+    }
+    .header__menu{
+        margin: 30px
+    }
+    .header__menu ul{
+        display: none; 
+        list-style: none;
+        padding: 0px;
+        position: absolute;
+        width: 100px;
+        text-align: right;
+        margin: 0px 0px 0px -14px;
+    }
+    .header__menu:hover ul , ul:hover{
+        display:block;
+    }
+    .header__menu li{
+        margin: 10px 0px;
+    }
+    .header__menu li a{
+        color: #dfcdc3;
+        text-decoration:none;
+    }
+    .header__menu li a:hover{
+        text-decoration: underline;
+    }
+    .header__menu--profile{
+        
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .header__menu--profile img{
+        margin-right: 10px; 
+        width: 40px;
+    }
+    .header__menu--profile p{
+        color:#dfcdc3;
+    }
+</style>
+<body>
+    <header class = "header">
+            <img class="header__img" src="https://img.icons8.com/dusk/64/000000/kawaii-taco.png" alt="Taco">
+            <div class="header__menu">
+                <div class="header__menu--profile">
+                    <img src="https://img.icons8.com/dusk/64/000000/cat-profile.png" alt="Profile">
+                    <p>Profile</p>
+                </div>           
+                <ul>
+                    <li><a href="/">Cuenta</a></li>
+                    <li><a href="/">Cerrar Sesión</a></li>
+                </ul>
+            </div>
+    </header>
+   <h1>Tacotote o Tacontento</h1> 
+</body>
+</html>
