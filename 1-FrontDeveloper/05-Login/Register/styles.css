@@ -16,7 +16,7 @@
 		width: 150px;
   }
   
-  .Register{
+  .register{
     background: linear-gradient(#21c08b, #ab88ff);
     display: flex;
     align-items: center; /* vertical */
@@ -26,7 +26,7 @@
     min-height: calc(100vh - 120px);
   }
 
-  .Register__container{
+  .register__container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -39,12 +39,12 @@
     width: 300px;
   }
 
-  .Register__container--form{
+  .register__container--form{
     display:flex;
     flex-direction: column;
   }
 
-  .Register__container--form label{
+  .register__container--form label{
     font-size: 14px;
   }
 
@@ -76,7 +76,19 @@
     margin: 10px 0px;
     cursor: pointer;
   }
-
+  .login{
+    display: flex;
+    justify-content: center;
+  }
+  .login a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .login a:hover{
+    text-decoration: underline;
+  }
   .footer{
     display: flex;
     align-items: center;
