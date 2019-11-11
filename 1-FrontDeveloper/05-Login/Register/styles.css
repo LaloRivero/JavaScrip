@@ -107,3 +107,18 @@
   .footer a:hover{
     text-decoration: underline;
   }
+
+  @media only screen and (max-width: 600px){
+    .register__container{
+      background-color: transparent;
+      border: none;
+      padding: 0px;
+      width: 100%;
+    }
+    .footer{
+      padding-left: 20px;
+      height:100px;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
