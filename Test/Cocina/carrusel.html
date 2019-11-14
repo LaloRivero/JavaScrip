@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Carrusel</title>
+</head>
+<style>
+  body {
+    margin: 0px;
+  }
+
+  .foodCarrusel {
+    width: 100%;
+    overflow: scroll;
+    padding: 30px;
+    position: relative;
+  }
+
+  .foodCarrusel__container {
+    white-space: nowrap;
+    margin: 70px 0px;
+    padding-bottom: 10px;
+  }
+  .foodCarrusel-item{
+        width: 200px;
+        height: 250px;
+        border-radius: 20px;
+        overflow: hidden;
+        display:inline-block;
+        cursor: pointer;
+        transition: 350ms all;
+        transform-origin: center left;
+        position: relative;
+    }
+</style>
+
+<body>
+  <section class="foodCarrusel">
+    <section class="foodCarrusel__container">
+      <!-- Esto es un item -->
+      <div class="foodCarrusel-item">
+        <img
+          src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="Food">
+        <div class="foodCarrusel__details">
+          <p class="foodCarrusel__details--text">Que rica comida</p>
+        </div>
+      </div>
+      <!-- Esto es un item -->
+    </section>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+body{
+  margin: 0;
+}
+.header {
+  font-family: 'Oxygen', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3c9d9b;
+  height: 60px;
+}
+.header__img{
+  margin-left: 10px;
+}
+.header__nav{
+  margin-right: 10px;
+}
+.header__nav a{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+.header__nav a:hover{
+  padding: 10px;
+  border-radius: 2px;
+  background-color: rgba(255,255,255, 0.2);
+}
