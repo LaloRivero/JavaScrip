@@ -12,7 +12,7 @@ var chikis = {
   edad: 4
 }
 
-function imprimirMayus({ nombre }) {
+function imprimirMayus(persona) {
   //var nombre = persona.nombre;
   var { nombre } = persona;
   console.log(nombre.toUpperCase());
@@ -21,3 +21,11 @@ function imprimirMayus({ nombre }) {
 imprimirMayus(gumaro);
 imprimirMayus(chikis);
 
+function imprimirNomYEdad(persona) {
+  var { nombre } = persona;
+  var { edad } = persona;
+  console.log("Hola, me llamo " + nombre + " y tengo " + edad + " años");
+}
+
+imprimirNomYEdad(gumaro);
+imprimirNomYEdad(chikis);
