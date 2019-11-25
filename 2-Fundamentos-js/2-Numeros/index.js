@@ -6,4 +6,3 @@ var total2 = parseFloat(totalStr);//Se convierte en un float
 var pizza = 8;
 var persona = 2;
 var cantDePizza = pizza / persona;
-
