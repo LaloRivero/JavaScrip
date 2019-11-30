@@ -35,6 +35,24 @@
         transform-origin: center left;
         position: relative;
     }
+    .foodCarrusel-item:hover ~ .foodCarrusel-item{
+        transform: translate3d(100px, 0, 0);
+    }
+    .foodCarrusel__container:hover .foodCarrusel-item{
+        opacity: 0.3;        
+    }
+    .foodCarrusel__container:hover .foodCarrusel-item:hover{
+        transform: scale(1.5);
+        opacity: 1; 
+    }
+    .foodCarrusel-item__img{
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
 </style>
 
 <body>
@@ -42,8 +60,17 @@
     <section class="foodCarrusel__container">
       <!-- Esto es un item -->
       <div class="foodCarrusel-item">
-        <img
+        <img class="foodCarrusel-item__img"
           src="https://images.pexels.com/photos/1633525/pexels-photo-1633525.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          alt="Food">
+        <div class="foodCarrusel__details">
+          <p class="foodCarrusel__details--text">Que rica comida</p>
+        </div>
+      </div>
+      <!-- Esto es un item -->
+      <div class="foodCarrusel-item">
+        <img class="foodCarrusel-item__img"
+          src="https://images.pexels.com/photos/364109/pexels-photo-364109.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
           alt="Food">
         <div class="foodCarrusel__details">
           <p class="foodCarrusel__details--text">Que rica comida</p>
