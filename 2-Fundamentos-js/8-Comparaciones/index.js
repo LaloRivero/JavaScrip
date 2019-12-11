@@ -46,5 +46,5 @@ Al crear un nuevo objeto es otro lugar en memoria por ende son diferentes
 */
 
 var dude4 = {
-  ...dude1;
+  ...dude1
 }
