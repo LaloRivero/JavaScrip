@@ -1,8 +1,9 @@
 var nombre = "Sacha"
 
-function imprimirMayus(nombre) {
-  nombre = nombre.toUpperCase();
-  console.log(nombre);
+function imprimirMayus(nom) {
+  //nom es una variable local
+  nom = nombre.toUpperCase();
+  console.log(nom);
 }
 
 imprimirMayus(nombre);

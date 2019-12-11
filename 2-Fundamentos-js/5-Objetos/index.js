@@ -26,6 +26,8 @@ imprimirMayus(chikis.nombre); */
 function imprimirMayus(persona) {
   var nombre = persona.nombre.toUpperCase();
   console.log(nombre);
+  //otra forma 
+  console.log(persona.nombre.toUpperCase());
 }
 
 imprimirMayus(gumaro);

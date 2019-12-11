@@ -21,6 +21,7 @@ function imprimirMayus(persona) {
 imprimirMayus(gumaro);
 imprimirMayus(chikis);
 
+/* Reto de la clase pasada
 function imprimirNomYEdad(persona) {
   var { nombre } = persona;
   var { edad } = persona;
@@ -28,4 +29,17 @@ function imprimirNomYEdad(persona) {
 }
 
 imprimirNomYEdad(gumaro);
-imprimirNomYEdad(chikis);
+imprimirNomYEdad(chikis); */
+
+/* Esta funcion modifica el elemento edad del objeto recibido 
+function cumpleAnos(persona){
+  persona.edad += 1;
+} */
+
+//Esta regresa un objeto nuevo que copia los elementos del objeto recibido anterior mente lo modifica y crea un objeto nuevo
+function cumpleAnos(persona) {
+  return {
+    ...persona,
+    edad: persona.edad += 1;
+  }
+}
