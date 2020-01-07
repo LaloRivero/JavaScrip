@@ -1,0 +1,22 @@
+{
+  "name": "02.1-asincronismo",
+  "version": "1.0.0",
+  "description": "Curso Asincronismo en Javascrip",
+  "main": "../02.1-Asincronismo/callback/index.js",
+  "scripts": {
+    "callback": "node ../02.1-Asincronismo/src/callback/index.js",
+    "callback:challenge": "node ../02.1-Asincronismo/src/callback/challenge.js",
+    "callback:starwars": "node ../02.1-Asincronismo/src/callback/starwars.js",
+    "promise": "node ../02.1-Asincronismo/promise/src/index.js",
+    "promise:challenge": "node ../02.1-Asincronismo/src/promise/challenge.js",
+    "promise:starwars": "node ../02.1-Asincronismo/src/promise/starwars.js",
+    "async": "node ../02.1-Asincronismo/src/async/index.js",
+    "async:challenge": "node ../02.1-Asincronismo/src/async/challenge.js",
+    "async:starwars": "node ../02.1-Asincronismo/src/async/starwars.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
