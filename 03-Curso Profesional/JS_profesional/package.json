@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Proyecto de Curso Profesional de JavaScript",
   "main": "index.js",
-  "scripts": {},
   "author": "Lalo Rivero",
   "license": "MIT",
   "keywords": [
